@@ -1,0 +1,10 @@
+{
+    "testRegex": "((\\.|/*.)(spec))\\.js?$",
+    // "setupTestFrameworkScriptFile": [
+    //     "./src/jest.setup.js"
+    // ],
+    "setupFiles": [
+        "<rootDir>/config/polyfills.js",
+        "<rootDir>/src/setupTests.js"
+    ]
+}
