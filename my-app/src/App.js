@@ -1,6 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-import UseHook from './useEffectHook/useEffectHook'
+import UseHook from './useEffectHook/useEffectHook';
+import List from './listScroll/ListScroll';
+import PaginationComponent from './pagination/pagination';
+import TodoList from './HOCExample/HOCSample';
+
 export const dataReducer = (state, action) => {
   if (action.type === 'SET_ERROR') {
     return { ...state, list: [], error: true };
@@ -31,7 +35,11 @@ const App = () => {
     <div>
       <h1>My Counter</h1>
       <Counter counter={counter} />
-      <UseHook />
+      {/*<UseHook />*/}
+      {/*<ListScroll/>*/}
+      {/*<PaginationComponent />*/}
+      {/*// HOC Example*/}
+      <TodoList /> 
       <button type="button" onClick={() => setCounter(counter + 1)}>
         Increment
       </button>
