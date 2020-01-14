@@ -2,4 +2,4 @@
 Using Jest and Enzyme
 
 # Items Implemened
-Pagination Example, Scroll to Item Example and HOC Example is Implemented
+UseHook, Pagination Example, Scroll to Item Example and HOC Examples are Implemented
